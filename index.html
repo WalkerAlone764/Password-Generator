@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Password Generator
+        </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="title">
+            <h1 id="whiteText">Generate a</h1>
+            <h1 id="greenText">random password</h1>
+        </div>
+        <div class="desc">
+            <p>Never use an insecure password again.</p>
+        </div>
+
+        <button onclick="showPass()">Generate password</button>
+
+        <hr>
+
+        <div class="show">
+            <div class="field show1" onclick="copyToClip('show1')">
+            </div>
+            <div class="field show2">
+            </div>
+            
+        </div>
+
+        <br>
+
+        <div class="center">
+            <label class="switch">
+                <input type="checkbox" onclick="temp()">
+                <span class="slider round"></span>
+            </label>
+            <p id="turn">don't include number</p>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
