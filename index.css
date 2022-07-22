@@ -50,9 +50,11 @@ hr {
     height: 39px;
     background: #273549;
     border-radius: 6px;
-    text-align: center;
     color:#55F991;
-    padding-top: 2px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #text {
